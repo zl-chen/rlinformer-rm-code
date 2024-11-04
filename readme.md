@@ -47,6 +47,8 @@ $ ./run.sh
 # train weight generation model
 $ cp ./checkpoints/basemodel/* ../weight_generation_models/basemodels/
 $ cd ../weight_generation_models
+$ mkdir basemodels/remove_model
+$ mv basemodels/model_remove* basemodels/remove_model/*
 $ python rlmc_battery.py
 ```
 
